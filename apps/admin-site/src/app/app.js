@@ -3,7 +3,7 @@ import NxWelcome from './nx-welcome';
 
 import { Route, Routes, Link } from 'react-router-dom';
 
-import { UiComponens } from '@an-tdesign/ui-componens';
+// import { UiComponens } from '@an-tdesign/ui-componens';
 export function App() {
   return (
     <>
@@ -21,9 +21,9 @@ export function App() {
           <li>
             <Link to="/">Home</Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/ui-componens">UiComponens</Link>
-          </li>
+          </li> */}
           <li>
             <Link to="/page-2">Page 2</Link>
           </li>
@@ -39,7 +39,7 @@ export function App() {
             </div>
           }
         />
-        <Route path="/ui-componens" element={<UiComponens />} />
+        {/* <Route path="/ui-componens" element={<UiComponens />} /> */}
         <Route
           path="/page-2"
           element={
