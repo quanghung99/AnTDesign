@@ -15,8 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@AnTDesign/UI-Libs": ["libs/ui-componens/src/index.js"],
-      "@an-tdesign/ui": ["libs/ui/src/index.ts"]
+      "@an-tdesign/helpers": ["libs/helpers/src/index.js"],
+      "@an-tdesign/services": ["libs/services/src/index.js"],
+      "@an-tdesign/ui-common": ["libs/ui-common/src/index.js"]
     }
   },
   "exclude": ["node_modules", "tmp"]
