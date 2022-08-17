@@ -1,5 +1,4 @@
 import './app.scss';
-import NxWelcome from './nx-welcome';
 
 import { Route, Routes, Link } from 'react-router-dom';
 
@@ -7,7 +6,6 @@ import { Route, Routes, Link } from 'react-router-dom';
 export function App() {
   return (
     <>
-      <NxWelcome title="admin-site" />
       <div />
 
       {/* START: routes */}
