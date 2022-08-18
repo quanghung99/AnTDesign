@@ -1,8 +1,9 @@
 import './MenuCustom.scss';
+import { Menu } from 'antd';
 export function MenuCustom(props) {
   return (
     <div>
-      <h1>Welcome to MenuCustom!</h1>
+      <Menu></Menu>
     </div>
   );
 }

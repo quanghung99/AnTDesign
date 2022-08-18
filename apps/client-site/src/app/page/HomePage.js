@@ -1,5 +1,5 @@
-import { Menu } from 'antd';
 import AppstoreOutlined from '@ant-design/icons';
+import { MenuCustom } from '@an-tdesign/ui-common';
 export function Homepage() {
   const items = [
     {
@@ -33,8 +33,8 @@ export function Homepage() {
       disabled: false,
     },
   ];
-  return <Menu mode="horizontal" items={items} />;
-  // return <MenuCustom />;
+  // return <Menu mode="horizontal" items={items} />;
+  return <MenuCustom items={items} mode="horizontal" />;
 }
 
 export default Homepage;
